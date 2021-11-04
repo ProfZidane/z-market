@@ -15,6 +15,8 @@ module.exports = async (app) => {
         res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, PATCH, OPTIONS');
         next();
     });
+
+    
     
     return app;
 }
